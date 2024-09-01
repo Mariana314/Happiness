@@ -457,293 +457,293 @@ hr {
 
 
 @media (max-width: 480px) {
-   header{
-    width: 50%;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-}
-
-   .logo img {
-    height: 40px;
-    margin: 0 0 10px 0;
-}
-
-    nav ul {
-    flex-direction: column;
-    width: 100%;
-}
-
-    nav ul li {
-    margin: 10px;
-}
-
-    nav ul li a {
-    font-size: 15px;
-}
-
-    .main {
-    flex-direction: column;
-    width: 100px;
-}
-
-    .container {
-    flex-direction: column;
-    margin: 20px;
-    padding: 0px;
-}
-
-    .imagen-1 {
-    width: 100px;
-    margin: 0;
-}
-
-    .imagen-1 img {
-    width: 100px;
-    height: auto;
-}
-
-    .section-1 {
-    margin: 20px 0;
-    width: 100px;
-}
-
-    .title1 {
-    font-size: 16px;
-}
-
-    .text1 {
-    font-size: 16px;
-}
-
-    .button-yellow {
-    font-size: 12px;
-    padding: 8px 20px;
-}
-    
-    .container1 {
-        padding: 0;
-        position: relative;
-        bottom: 0px;
-        left: -90px;
-        width: 50%;
-        margin: 0 auto;
-        flex-direction: column;
-    }
-    .section-2 {
-        margin: 10px 0;
-        width: 100%; 
-        padding: 10px; 
-    }
-
-    .container2{
-        margin: 0;
-        padding: 20px
-    }
-
-    .img-section-3{
-        width: 25%;
-        left: -145px;
-    }
-
-    .title3{
-        font-size: 23px;
-    }
-
-    .container3 {
-        padding: 0px;
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .caja {
-        flex-direction: column;
-        width: 65%;
-        box-shadow: none;
-        margin: 10px 0;
-    }
-
-    .title4 {
-        font-size: 35px;
-        text-align: start;
-        margin-bottom: 10px;
-    }
-
-    .section-4 {
-        padding: 5px; 
-    }
-
-    .img-section-4 {
-        position: relative;
-        left: 10px;
-        margin-top: 20px;
-    }
-
-    .container4 {
-        padding: 15px; 
-        align-items: flex-start;
-    }
-
-    .section-5 {
-        margin: 20px 0; 
-        padding: 10px 15px; 
-        width: 50%;
-    }
-
-    .title5 {
-        font-size: 20px; 
-        margin-bottom: 15px;
-    }
-
-    .text3 {
-        font-size: 14px; 
-        margin-bottom: 10px;
-    }
-
-    .img-4 {
-        width: 200px;
-    }
-
-    .container5 {
-        flex-direction: column; 
-        justify-content: center;
-        margin: 20px; 
-    }
-
-    .section-6 {
-        margin: 20px 0;
-        margin-left: 0;
-    }
-
-    .title6 {
-        font-size: 24px; 
-    }
-
-    .img-5{
-        width: 200px;
-    }
-
-    .container6 {
-        flex-direction: column;
-        width: 50%;
-        padding: 15px; 
-        align-items: flex-start;
-    }
-
-    .section-7 {
-        margin: 20px 0;
-        margin-left: 0;
-    }
-
-    .title7 {
-        font-size: 24px;
-    }
-
-    .img-6{
-        width: 200px;
-    }
-    .container7 {
-        flex-direction: column;
-        width: 50%;
-        padding: 10px;
-    }
-
-    .form-section {
-        width: 100%;
-    }
-
-    .text-section {
-        width: 100%;
-        margin: 10px 0;
-        padding-left: 0;
-    }
-
-    .form-container {
-        padding: 20px;
-    }
-
-    .input-group {
-        flex-direction: column;
-    }
-
-    .input-box {
-        width: 100%;
-        margin-bottom: 15px;
-    }
-
-    .input-box.large-message textarea {
-        width: 100%;
-    }
-
-    .title8 {
-        font-size: 24px;
-    }
-
-    .button-subscribe {
-        width: 100%;
-        padding: 10px 0;
-    }
-
-    .container8 {
-        width: 50%;
-        padding: 10px;
-    }
-
-    .section-9 {
-        margin: 10px 0;
-    }
-
-    .title9 {
-        font-size: 24px;
-    }
-
-    .container8 .button-yellow {
-        margin: 20px;
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-
-    .img-map{
-        width: 200px;
-    }
-
-    .container9{
-        width: 50%;
-    }
-
-    .section-10 {
-        padding: 0px 20px 70px;
-        width: 100%;
-        margin-top: 50px;
-        padding-left: 20px;
-    }
-
-    .nav-columns {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .nav-columns ul {
-        font-size: 14px;
-    }
-
-    hr {
-        width: 100%;
-    }
-
-    .final {
-        flex-direction: column;
-        align-items: flex-start;
-        width: 100%;
-        padding: 20px 10px;
-    }
-
-    .textfinal {
-        font-size: 14px;
-    }
-
-    .social-icons img {
-        width: 20px;
-        height: 20px;
-    }
-}
+    header{
+     width: 100%;
+     flex-direction: column;
+     align-items: flex-start;
+     padding: 10px;
+ }
+ 
+    .logo img {
+     height: 40px;
+     margin: 0 0 10px 0;
+ }
+ 
+     nav ul {
+     flex-direction: column;
+     width: 100%;
+ }
+ 
+     nav ul li {
+     margin: 10px;
+ }
+ 
+     nav ul li a {
+     font-size: 15px;
+ }
+ 
+     .main {
+     flex-direction: column;
+     width: 100px;
+ }
+ 
+     .container {
+     flex-direction: column;
+     margin: 20px;
+     padding: 0px;
+ }
+ 
+     .imagen-1 {
+     width: 100px;
+     margin: 0;
+ }
+ 
+     .imagen-1 img {
+     width: 100px;
+     height: auto;
+ }
+ 
+     .section-1 {
+     margin: 20px 0;
+     width: 100px;
+ }
+ 
+     .title1 {
+     font-size: 16px;
+ }
+ 
+     .text1 {
+     font-size: 16px;
+ }
+ 
+     .button-yellow {
+     font-size: 12px;
+     padding: 8px 20px;
+ }
+     
+     .container1 {
+         padding: 0;
+         position: relative;
+         bottom: 0px;
+         left: -90px;
+         width: 100%;
+         margin: 0 auto;
+         flex-direction: column;
+     }
+     .section-2 {
+         margin: 10px 0;
+         width: 100%; 
+         padding: 10px; 
+     }
+ 
+     .container2{
+         margin: 0;
+         padding: 20px
+     }
+ 
+     .img-section-3{
+         width: 25%;
+         left: -145px;
+     }
+ 
+     .title3{
+         font-size: 23px;
+     }
+ 
+     .container3 {
+         padding: 0px;
+         flex-direction: column;
+         align-items: flex-start;
+     }
+ 
+     .caja {
+         flex-direction: column;
+         width: 100%;
+         box-shadow: none;
+         margin: 10px 0;
+     }
+ 
+     .title4 {
+         font-size: 35px;
+         text-align: start;
+         margin-bottom: 10px;
+     }
+ 
+     .section-4 {
+         padding: 5px; 
+     }
+ 
+     .img-section-4 {
+         position: relative;
+         left: 10px;
+         margin-top: 20px;
+     }
+ 
+     .container4 {
+         padding: 15px; 
+         align-items: flex-start;
+     }
+ 
+     .section-5 {
+         margin: 20px 0; 
+         padding: 10px 15px; 
+         width: 100%;
+     }
+ 
+     .title5 {
+         font-size: 20px; 
+         margin-bottom: 15px;
+     }
+ 
+     .text3 {
+         font-size: 14px; 
+         margin-bottom: 10px;
+     }
+ 
+     .img-4 {
+         width: 200px;
+     }
+ 
+     .container5 {
+         flex-direction: column; 
+         justify-content: center;
+         margin: 20px; 
+     }
+ 
+     .section-6 {
+         margin: 20px 0;
+         margin-left: 0;
+     }
+ 
+     .title6 {
+         font-size: 24px; 
+     }
+ 
+     .img-5{
+         width: 200px;
+     }
+ 
+     .container6 {
+         flex-direction: column;
+         width: 100%;
+         padding: 15px; 
+         align-items: flex-start;
+     }
+ 
+     .section-7 {
+         margin: 20px 0;
+         margin-left: 0;
+     }
+ 
+     .title7 {
+         font-size: 24px;
+     }
+ 
+     .img-6{
+         width: 200px;
+     }
+     .container7 {
+         flex-direction: column;
+         width: 100%;
+         padding: 10px;
+     }
+ 
+     .form-section {
+         width: 100%;
+     }
+ 
+     .text-section {
+         width: 100%;
+         margin: 10px 0;
+         padding-left: 0;
+     }
+ 
+     .form-container {
+         padding: 20px;
+     }
+ 
+     .input-group {
+         flex-direction: column;
+     }
+ 
+     .input-box {
+         width: 100%;
+         margin-bottom: 15px;
+     }
+ 
+     .input-box.large-message textarea {
+         width: 100%;
+     }
+ 
+     .title8 {
+         font-size: 24px;
+     }
+ 
+     .button-subscribe {
+         width: 100%;
+         padding: 10px 0;
+     }
+ 
+     .container8 {
+         width: 100%;
+         padding: 10px;
+     }
+ 
+     .section-9 {
+         margin: 10px 0;
+     }
+ 
+     .title9 {
+         font-size: 24px;
+     }
+ 
+     .container8 .button-yellow {
+         margin: 20px;
+         padding: 10px 20px;
+         font-size: 14px;
+     }
+ 
+     .img-map{
+         width: 200px;
+     }
+ 
+     .container9{
+         width: 100%;
+     }
+ 
+     .section-10 {
+         padding: 0px 20px 70px;
+         width: 100%;
+         margin-top: 50px;
+         padding-left: 20px;
+     }
+ 
+     .nav-columns {
+         flex-direction: column;
+         width: 100%;
+     }
+ 
+     .nav-columns ul {
+         font-size: 14px;
+     }
+ 
+     hr {
+         width: 100%;
+     }
+ 
+     .final {
+         flex-direction: column;
+         align-items: flex-start;
+         width: 100%;
+         padding: 20px 10px;
+     }
+ 
+     .textfinal {
+         font-size: 14px;
+     }
+ 
+     .social-icons img {
+         width: 20px;
+         height: 20px;
+     }
+ }
