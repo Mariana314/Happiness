@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.open-sans-uniquifier {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -69,6 +86,8 @@ nav ul li a {
     font-weight: bold;
     font-size: 50px;
     margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+
 }
 
 .button-yellow{
@@ -118,6 +137,7 @@ nav ul li a {
     margin: 0px;
     font-weight: bold;
     color: #FFD700;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .read {
@@ -163,6 +183,7 @@ nav ul li a {
    font-weight: bold;
    font-size: 50px;
    margin: 0px;
+   font-family: "Bebas Neue", sans-serif;
 }
 
 .read2 {
@@ -178,6 +199,7 @@ nav ul li a {
 .text2 {
     color: #000;
     width: 70%;
+    font-family: "Open Sans", sans-serif;
     /* font-size: 18px;
     margin-bottom: 20px;
     padding-right: 320px; */
@@ -199,7 +221,9 @@ nav ul li a {
 .title4{
     color: #FFD700;
     font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
 }
+
 #black{
     color: white;
     background-color: #000;
@@ -235,9 +259,11 @@ nav ul li a {
 .title5 {
     color: #FFD700;
     font-size: 25px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .text3 {
+    font-family: "Open Sans", sans-serif;
     color: #fff;
 }
 
@@ -259,6 +285,7 @@ nav ul li a {
 
 .title6{
     font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .container6{
@@ -273,6 +300,7 @@ nav ul li a {
 
 .title7{
     font-size: 50px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 
@@ -349,6 +377,7 @@ textarea {
     color: #FFD700;
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .button-subscribe{
@@ -378,6 +407,7 @@ textarea {
 
 .title9{
     font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .container8 .button-yellow{
@@ -441,6 +471,7 @@ hr {
 }
 
 .textfinal {
+    font-family: "Open Sans", sans-serif;
     color: #FFD700;
 }
 
